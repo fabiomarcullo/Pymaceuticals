@@ -6,7 +6,8 @@ Background
 
 	The executive team has tasked you with generating all of the tables and figures needed for the technical report of the clinical study. They have also asked you for a top-level summary of the study results.
 
--------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Instructions
 
 This assignment is broken down into the following tasks:
@@ -19,7 +20,7 @@ This assignment is broken down into the following tasks:
 	- Calculate correlation and regression.
 	- Submit your final analysis.
 
--------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Prepare the Data
 
 	- Run the provided package dependency and data imports, and then merge the mouse_metadata and study_results DataFrames into a single DataFrame.
@@ -28,7 +29,7 @@ Prepare the Data
 
 	- Display the updated number of unique mice IDs.
 
--------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Generate Summary Statistics
 
 	- Create a DataFrame of summary statistics. Remember, there is more than one method to produce the results you're after, so the method you use is less important than the result.
@@ -39,7 +40,7 @@ Generate Summary Statistics
 
 		- A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
 
--------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Create Bar Charts and Pie Charts
 
 	- Generate two bar charts. Both charts should be identical and show the total number of time points for all mice tested for each drug regimen throughout the study.
@@ -54,7 +55,7 @@ Create Bar Charts and Pie Charts
 
 	- Create the second pie chart with Matplotlib's pyplot methods.
 
--------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Calculate Quartiles, Find Outliers, and Create a Box Plot
 
 	- Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
@@ -71,14 +72,14 @@ Calculate Quartiles, Find Outliers, and Create a Box Plot
 
 	- hint: All four box plots should be within the same figure. Use this Matplotlib documentation pageLinks to an external site. for help with changing the style of the outliers.
 
--------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Create a Line Plot and a Scatter Plot
 
 	- Select a mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
 
 	- Generate a scatter plot of tumor volume versus mouse weight for the Capomulin treatment regimen.
 
--------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Calculate Correlation and Regression
 
 	- Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment.
